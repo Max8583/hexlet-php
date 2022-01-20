@@ -3,7 +3,10 @@
     "autoload": {
         "psr-4": {
             "Max\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+        	"src/Runner.php "
+        	]
     },
     "authors": [
         {
@@ -11,5 +14,7 @@
             "email": "vlasov-maksim@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^8.80"
+    }
 }
